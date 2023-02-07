@@ -19,6 +19,8 @@ body {
   text-align: center;
 }
 
+
+
 h1 {
   font-size: 3rem;
   margin: 0;
@@ -30,11 +32,17 @@ h4 {
 }
 
 img {
-  display: block;
+ grid-auto-flow:column ;
 }
 
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .content{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
   }
 }
